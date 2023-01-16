@@ -1,0 +1,18 @@
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+
+  return (
+    <div className="App">
+      <div className="main">
+        
+        <div  className="placeholder">
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
