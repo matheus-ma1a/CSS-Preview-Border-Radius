@@ -58,6 +58,11 @@ function App() {
 
         <InputscompBotton eventoTopLeft={eventoBottonLeft} eventoTopRight={eventoBottonRight} />
 
+        <footer> 
+          Code by <a href="https://github.com/matheus-ma1a" >Matheus-ma1a</a> <i class="devicon-github-original "></i>
+          
+        </footer>
+
       </div>
     </div>
   )

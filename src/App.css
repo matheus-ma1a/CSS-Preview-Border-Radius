@@ -41,6 +41,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
   
 }
 
@@ -88,4 +89,24 @@ p{
   min-width: 286px;
   min-height: 286px;
   background-color: #FF9466;
+}
+
+footer{
+  margin: 20px;
+  text-decoration: none;
+  
+}
+
+a{
+  text-decoration: none;
+  color: #FFE8D9;
+}
+
+img{
+  width: 20px;
+
+}
+
+svg{
+  color: #F7F7F7;
 }
