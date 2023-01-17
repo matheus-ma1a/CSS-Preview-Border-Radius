@@ -49,7 +49,7 @@ function App() {
         <h1>border-radius:</h1>
 
         <div className="params">
-          <p className='textPrams' >border-radius: {topLeft}px {topRight}px {bottomLeft}px {bottomRight}px;</p>
+          <p className='textPrams' >border-radius: {topLeft == 0 ? 0 : topLeft}px {topRight == 0 ? 0 : topRight }px {bottomLeft == 0 ? 0 : bottomLeft }px {bottomRight == 0 ? 0 : bottomRight }px;</p>
         </div>
 
         <Inputscomp value={topLeft} eventoTopLeft={eventoTopLeft} eventoTopRight={eventoTopRight} />
