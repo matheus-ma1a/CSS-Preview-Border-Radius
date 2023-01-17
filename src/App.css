@@ -74,15 +74,11 @@ p{
 }
 
 .main{
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding-top: 6.5rem;
   color:  #FFE8D9;
-  padding: 30px;
 }
 
 .previewborder{
@@ -92,7 +88,7 @@ p{
 }
 
 footer{
-  margin: 20px;
+  margin-top: 20px;
   text-decoration: none;
   
 }
